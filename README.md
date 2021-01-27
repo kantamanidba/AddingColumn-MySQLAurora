@@ -3,7 +3,8 @@ Adding a column to an existing table in MYSQL/MYSQL Aurora at any position in ta
 
 It's very good feature and we commonly get this situvation in Development projects. Here is the syntax and example.
 
-Syntax: ALTER TABLE table_name ADD [COLUMN] column_name column_definition [FIRST|AFTER existing_column];
+Syntax: ALTER TABLE table_name ADD [COLUMN] column_name column_definition 
+        [FIRST|AFTER existing_column];
 
 example:   ALTER TABLE schema_name.table_name ADD COLUMN column_name VARCHAR(1) NULL DEFAULT 'Y' AFTER column_4;
 
