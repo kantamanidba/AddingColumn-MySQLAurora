@@ -1,5 +1,5 @@
 
-#Adding a column to an existing table in MYSQL Aurora at any position in table.
+# Adding a column to an existing table in MYSQL Aurora at any position in table.
 
 It's very good feature and we commonly get this situvation in Development projects. Here is the syntax and example.
 
