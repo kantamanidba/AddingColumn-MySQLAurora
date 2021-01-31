@@ -6,7 +6,7 @@ It's very good feature and we commonly get this situvation in Development projec
 **Syntax:** ALTER TABLE table_name ADD [COLUMN] column_name column_definition 
         [FIRST|AFTER existing_column];
 
-**example:**   ALTER TABLE schema_name.table_name ADD COLUMN column_name VARCHAR(1) NULL DEFAULT 'Y' AFTER column_4;
+**example:**   ALTER TABLE db_name.table_name ADD COLUMN column_name VARCHAR(1) NULL DEFAULT 'Y' AFTER column_4;
 
 MySQL allows you to add the new column as the first column of the table by specifying the FIRST keyword. It also allows you to add the new column after an existing column using the AFTER existing_column clause. If you don’t explicitly specify the position of the new column, MySQL will add it as the last column.
 
